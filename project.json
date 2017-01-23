@@ -1,0 +1,8 @@
+{
+  "name": "split-eat",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::334508945169:role/split-eat_lambda_function",
+  "environment": {}
+}
