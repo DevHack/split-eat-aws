@@ -47,7 +47,7 @@
         transaction.description = ev.description;
         transaction.participants = ev.participants;
         transaction.cost = ev.cost;
-        transaction.groupieid = ev.groupieId;
+        transaction.groupieId = ev.groupieId;
 
         docClient.put({
             TableName: "transaction",
